@@ -1,4 +1,7 @@
-h1 {
-  font-family: 'Lobster', cursive;
-  color: green;
+ body {
+  margin: 0;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333
 }
