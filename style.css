@@ -1,4 +1,237 @@
-h1 {
-  font-family: 'Lobster', cursive;
-  color: green;
+* {
+  margin: 0;
+  padding: 0
 }
+
+
+.profile {
+background-color: #ffd1dc;
+padding: 30px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.profile .container {
+display: flex;
+}
+
+.profile-photo {
+margin-right: 150px;
+}
+
+.profile-photo img {
+width: 280px;
+height: 355px;
+}
+
+.my-name {
+font-size: 55px;
+color: white;
+margin-bottom: 10px;
+}
+
+.my-future {
+font-size: 25px;
+}
+.description-a img {
+width: 50px;
+height: 50px;
+}
+
+.description-l img {
+width: 50px;
+height: 50px;
+}
+
+
+.my-future {
+  font-size: 22px;
+  color: white;
+ font-style: italic;
+ margin-bottom: 15px;
+ border-bottom: 1.2px solid rgb(74, 70, 70);
+ padding-bottom: 10px;
+}
+
+.description {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.description-i:first-child {
+  margin-right: 150px;
+}
+
+.description-l:first-child {
+  margin-right: 100px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(221, 0, 255);
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.info .container {
+  display: flex;
+}
+ 
+.info {
+  background-color: #ebdbde;
+}
+
+.contacts {
+font-size: 35px;
+color: white;
+font-style: italic;
+margin-bottom: 15px;
+border-bottom: 1.2px solid rgb(74, 70, 70);
+padding-bottom: 10px;
+margin-top: 30px;
+}
+
+
+.a .contacts {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(221, 0, 255);
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.about {
+font-size: 35px;
+color: white;
+font-style: italic;
+margin-bottom: 15px;
+border-bottom: 1.2px solid rgb(74, 70, 70);
+padding-bottom: 10px;
+margin-top: 30px;
+}
+.about-t {
+  font-size: 25px;
+  color: black;
+font-style: italic;
+
+}
+.cont {
+  font-size: 25px;
+  color: black;
+}
+.luen {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 15px;
+  border-bottom: 1.2px solid rgb(74, 70, 70);
+  padding-bottom: 10px;
+  margin-top: 30px;
+  }
+  .lu {
+    font-size: 25px;
+    color: black;
+  }
+.about-be {
+  font-size: 25px;
+  color: black;
+}
+
+.info-second:first-child {
+  margin-right: 250px;
+}
+
+.skills-n {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 15px;
+  border-bottom: 1.2px solid rgb(74, 70, 70);
+  padding-bottom: 10px;
+  margin-top: 30px;
+  }
+  .skills-t {
+      font-size: 25px;
+      color: black;
+  }
+
+  .edu {
+    font-size: 35px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 15px;
+  border-bottom: 1.2px solid rgb(74, 70, 70);
+  padding-bottom: 10px;
+  margin-top: 59px;
+  }
+
+  .edu-t {
+    font-size: 25px;
+    color: black;
+}
+  
+.exp {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 15px;
+  border-bottom: 1.2px solid rgb(74, 70, 70);
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+.exp-t {
+  font-size: 25px;
+  color: black;
+}
+
+.code {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 15px;
+  border-bottom: 1.2px solid rgb(74, 70, 70);
+  padding-bottom: 10px;
+  margin-top: 48px;
+}
+.code-t {
+  font-size: 25px;
+  color: black;
+  font-style:italic;
+}
+
+.footer {
+  background-color: #c7a6ad;
+  padding: 25px;
+}
+.footer-logo img{
+width: 60px;
+height: 60px;
+}
+
+.footer-link {
+  margin-left: 100px; 
+
+}
+.year {
+  font-size: 15px;
+  color: white;
+}
+ .link {
+  font-size: 22px;
+  font-style: italic;
+ }
