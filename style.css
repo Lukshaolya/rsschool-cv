@@ -10,9 +10,9 @@ margin: 0 auto;
 
 body {
   font-family: 'Lobster', cursive;
-font-family: 'Magra', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Magra', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   font: 16px;
 }
 
@@ -57,16 +57,11 @@ body {
 
 .word1 {
   color: white;
- 
   text-shadow: 0 -10px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
 }
 
 
 /* 2 block */
-
-.main .container {
-
-}
 
  .name {
   display:flex;
@@ -97,9 +92,13 @@ body {
  img {
   height: 500px;
  }
+
+
  img {
   transition: 1s; /* Время эффекта */
  }
+
+
  img:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
  }
@@ -124,7 +123,6 @@ body {
 
 .skills-title {
   font-family: 'Poppins';
-  
   font-weight: 100;
   font-size: 18px;
 }
@@ -149,10 +147,11 @@ body {
   font-size: 16px;
   padding-top: 20px;
 }
+
 .info-2-inf span {
   padding: 10px;
   font-size: 18px;
-color:black;
+ color:black;
 }
 
 .info-2-inf ul {
@@ -223,7 +222,7 @@ line-height: 60px;
   background: white;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-bottom: -8px;
+  bottom: -8px;
 }
 
 .icons .icon:hover .toollip{
